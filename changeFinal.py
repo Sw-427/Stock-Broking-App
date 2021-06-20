@@ -42,10 +42,10 @@ def update_continous(name):
 		print('X')
 
 conn = pyodbc.connect("Driver={SQL Server Native Client 11.0};"
-"Server=LAPTOP-L8UPOJK4\MYSQL;"
-"Database = master;"
-"username=sa;"
-"password=harshal12;"
+"Server=YourServerName;"
+"Database = YourDatabase;"
+"username= YourUsername;"
+"password= YourPassword;"
 "Trusted_Connection=yes;",autocommit=True)
 db = conn.cursor()
 print("conn")
